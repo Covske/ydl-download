@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "sanitize-filename": "^1.6.3",
+    "youtube-dl-exec": "^2.4.6",
+    "ytdl": "^1.4.1",
+    "ytdl-core": "^4.11.5"
+  }
+}
