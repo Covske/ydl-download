@@ -37,10 +37,7 @@ leitor.question("link do vídeo: ", function (res) {
 
     if (isYouTubeShorts(videoURL)) {
        videoURL =  converterLinkShortsParaWatch(videoURL)
-    } else {
-        return null
     }
-    
 
     // Diretório de saída para salvar o arquivo
     const outputDirectory = "downloads";
